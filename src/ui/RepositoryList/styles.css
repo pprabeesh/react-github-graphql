@@ -1,0 +1,36 @@
+.results-wrapper {
+  margin: 2% 10%;
+  padding: 1%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.col1 {
+  min-width: 55%;
+  text-align: left;
+}
+
+.col2 {
+  min-width: 35%;
+  text-align: left;
+}
+
+.col3 {
+  min-width: 10%;
+  text-align: left;
+}
+
+.header {
+  font-weight: bolder;
+}
