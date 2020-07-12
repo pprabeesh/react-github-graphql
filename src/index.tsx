@@ -7,10 +7,10 @@ import { ApolloProvider as ApolloHooksProvider } from "react-apollo-hooks";
 import * as serviceWorker from "./serviceWorker";
 import "./index.css";
 import App from "./App";
-import { AUTHORIZATION_KEY } from "./constants";
+import { AUTHORIZATION_KEY, GRAPHQL_URL } from "./constants";
 
 const client = new ApolloClient({
-  uri: "https://api.github.com/graphql",
+  uri: GRAPHQL_URL,
   headers: {
     Authorization: `Bearer ${AUTHORIZATION_KEY}`,
   },

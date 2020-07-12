@@ -10,7 +10,6 @@ export const GithubRepoSearch = () => {
   const { data, called, error, loading, refetch } = useRepositoryListQuery({
     variables: { queryString: `${DEFAULT_SEARCH_PARAMS}` },
   });
-
   return (
     <>
       <Search
